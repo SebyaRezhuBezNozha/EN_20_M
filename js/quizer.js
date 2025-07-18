@@ -343,7 +343,7 @@ function load(){
 
 // EN songs
 
-const en_2020_gr_icon = [
+const en_2020_m_icon = [
 	'pop'
 ];
 
