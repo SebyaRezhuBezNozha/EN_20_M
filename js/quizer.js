@@ -352,8 +352,63 @@ const EN_2020_M_PACK_1 = 1;
 let en_2020_m = [
 	{
 		pack : EN_2020_M_PACK_1,
-		group : 'Jonas Brothers',
-		song : "What a Man Gotta Do (2020)"
+		group : 'Troye Sivan',
+		song : "Rush (2023)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Troye Sivan',
+		song : "One of Your Girls (2023)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Troye Sivan',
+		song : "Got Me Started (2023)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Oliver Tree',
+		song : "Jerk (2020)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Oliver Tree',
+		song : "Life Goes On  (2021)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Oliver Tree',
+		song : "Let Me Down (2020)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Benson Boone',
+		song : "Ghost Town (2021)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Benson Boone',
+		song : "Beautiful Things (2024)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Benson Boone',
+		song : "Slow It Down (2024)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Tom Odell',
+		song : "Black Friday (2023)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Tom Odell',
+		song : "over you yet (2021)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Tom Odell',
+		song : "numb (2021)"
 	}
 ];
 
