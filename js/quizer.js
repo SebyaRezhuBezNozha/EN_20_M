@@ -409,6 +409,91 @@ let en_2020_m = [
 		pack : EN_2020_M_PACK_1,
 		group : 'Tom Odell',
 		song : "numb (2021)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Ed Sheeran',
+		song : "Shivers (2021)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Ed Sheeran',
+		song : "Azizam (2025)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Ed Sheeran',
+		song : "Eyes Closed (2023)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Weeknd',
+		song : "Too Late (2020)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Weeknd',
+		song : "Is There Someone Else? (2022)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Weeknd',
+		song : "Save Your Tears (2020)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Kendrick Lamar',
+		song : "Not Like Us (2024)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Kendrick Lamar',
+		song : "Squabble Up (2024)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Kendrick Lamar',
+		song : "Luther (ft SZA) (2024)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Post Malone',
+		song : "Chemical (2023)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Post Malone',
+		song : "I Had Some Help (ft Morgan Wallen) (2024)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Post Malone',
+		song : "I Like You (A Happier Song) (ft Doja Cat) (2022)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'James Arthur',
+		song : "Car's Outside (2022)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'James Arthur',
+		song : "Lasting Lover (ft Sigala) (2020)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Lil Nas X',
+		song : "MONTERO (Call Me By Your Name) (2021)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Lil Nas X',
+		song : "THATS WHAT I WANT (2021)"
+	},
+	{
+		pack : EN_2020_M_PACK_1,
+		group : 'Lil Nas X',
+		song : "Industry Baby (ft Jack Harlow) (2021)"
 	}
 ];
 
