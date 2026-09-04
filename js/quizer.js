@@ -342,833 +342,268 @@ function load(){
 }
 
 // EN songs
-const en_2010_m_icon = [
+
+const en_2020_gr_icon = [
 	'pop',
-	'dj',
-	'rap',
-	'pop_2'
+	'rock'
 ];
 
-const EN_2010_M_PACK_1 = 1;
-const EN_2010_M_PACK_2 = 2;
-const EN_2010_M_PACK_3 = 3;
-const EN_2010_M_PACK_4 = 4;
+const EN_2020_GR_PACK_1 = 1;
+const EN_2020_GR_PACK_2 = 2;
 
-let en_2010_m = [
+let en_2020_gr = [
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Lil Nas X',
-		song : "Old Town Road (2018)"
+		pack : EN_2020_GR_PACK_1,
+		group : 'Jonas Brothers',
+		song : "What a Man Gotta Do (2020)"
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Luis Fonsi',
-		song : "Despacito (ft Daddy Yankee) (2017)"
+		pack : EN_2020_GR_PACK_1,
+		group : 'Jonas Brothers',
+		song : "Leave Before You Love Me (ft Marshmello) (2021)"
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Bruno Mars',
-		song : "Uptown Funk (ft. Mark Ronson) (2014)",
+		pack : EN_2020_GR_PACK_1,
+		group : 'Jonas Brothers',
+		song : "Waffle House (2023)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Imagine Dragons',
+		song : "Blank Space (2022)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Pharrell Williams',
-		song : "Blurred Lines (ft TI, Robin Thicke) (2013)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Wiz Khalifa',
-		song : "See You Again (ft Charlie Puth) (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Ed Sheeran',
-		song : "Shape of You (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Drake',
-		song : "God's Plan (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Pharrell Williams',
-		song : "Happy (2013)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Drake',
-		song : "In My Feelings (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Eminem',
-		song : "Love the Way You Lie (ft. Rihanna) (2010)",
+		pack : EN_2020_GR_PACK_1,
+		group : 'Imagine Dragons',
+		song : "Bones (2022)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Bruno Mars',
-		song : "Grenade (2010)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Bruno Mars',
-		song : "24K Magic (2016)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Ed Sheeran',
-		song : "Perfect (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Ed Sheeran',
-		song : "Bad Habits (2021)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Justin Bieber',
-		song : "What Do You Mean? (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Justin Bieber',
-		song : "Sorry (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Justin Bieber',
-		song : "Yummy (2020)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Pitbull',
-		song : "Give Me Everything (ft. Ne-Yo, Afrojack, Nayer) (2011)",
+		pack : EN_2020_GR_PACK_1,
+		group : 'Imagine Dragons',
+		song : "Enemy  (2021)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Pitbull',
-		song : "Timber (ft. Kesha) (2013)"
+		pack : EN_2020_GR_PACK_1,
+		group : 'Tame Impala',
+		song : "Is It True (2020)"
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Pitbull',
-		song : "Back in Time (2012)"
+		pack : EN_2020_GR_PACK_1,
+		group : 'Tame Impala',
+		song : "Lost in Yesterday (2020)"
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Drake',
-		song : "Hotline Bling (2015)"
+		pack : EN_2020_GR_PACK_1,
+		group : 'Tame Impala',
+		song : "Breathe Deeper (2020)"
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Pharrell Williams',
-		song : "Get Lucky (ft Daft Punk) (2013)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Thirty Seconds to Mars',
+		song : "Lost These Days (2023)"
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Flo Rida',
-		song : "Good Feeling (2012)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Thirty Seconds to Mars',
+		song : "Stuck (2023)"
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Flo Rida',
-		song : "Whistle (2012)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Thirty Seconds to Mars',
+		song : "Seasons (2023)"
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'will.i.am',
-		song : "This Is Love (ft Eva Simons) (2012)"
+		pack : EN_2020_GR_PACK_1,
+		group : '5 Seconds of Summer',
+		song : "Lonely Heart (2020)"
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'will.i.am',
-		song : "Scream & Shout (ft Britney Spears) (2012)",
+		pack : EN_2020_GR_PACK_2,
+		group : 'A Day to Remember',
+		song : "Mindreader (2020)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Weeknd',
-		song : "Blinding Lights (2019)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Asking Alexandria',
+		song : "Alone Again (2021)"
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Weeknd',
-		song : "The Hills (2015)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Asking Alexandria',
+		song : "Dark Void (2024)"
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Weeknd',
-		song : "Heartless (2019)"
+		pack : EN_2020_GR_PACK_1,
+		group : 'Bastille',
+		song : "Distorted Light Beam (2021)"
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'will.i.am',
-		song : "#thatPOWER (ft Justin Bieber) (2013)",
+		pack : EN_2020_GR_PACK_2,
+		group : 'Black Keys',
+		song : "Wild Child (2022)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Harry Styles',
-		song : "Watermelon Sugar (2020)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Bring Me The Horizon',
+		song : "Kingslayer (ft BABYMETAL) (2020)"
 	},
 	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Alan Walker',
-		song : "Faded (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Alan Walker',
-		song : "Alone (2016)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Tiesto',
-		song : "Wasted (ft Matthew Koma)(2014)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Tiesto',
-		song : "Red Lights (2014)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Kanye West',
-		song : "All Of The Lights (ft Rihanna & Kid Cudi) (2010)",
+		pack : EN_2020_GR_PACK_2,
+		group : 'Cigarettes After Sex',
+		song : "Stop Waiting (2023)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Kanye West',
-		song : "Bound 2 (2013)"
+		pack : EN_2020_GR_PACK_1,
+		group : 'Coldplay',
+		song : "My Universe (ft BTS) (2021)"
 	},
 	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Armin van Buuren',
-		song : "This Is What It Feels Like (ft Trevor Guthrie)",
-		year : 2013
+		pack : EN_2020_GR_PACK_2,
+		group : 'Electric Callboy',
+		song : "Arrow of Love (2022)"
 	},
 	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Robin Schulz',
-		song : "Prayer in C (ft Lilly Wood and the Prick)",
-		year : 2014
+		pack : EN_2020_GR_PACK_2,
+		group : 'Electric Callboy',
+		song : "We Got the Moves (2021)"
 	},
 	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Robin Schulz',
-		song : "Sugar (ft Francesco Yates)",
-		year : 2015
+		pack : EN_2020_GR_PACK_2,
+		group : 'Enter Shikari',
+		song : "It Hurts (2023)"
 	},
 	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Alan Walker',
-		song : "All Falls Down (2017)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Falling In Reverse',
+		song : "God Is a Weapon (ft Marilyn Manson) (2025)"
 	},
 	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Armin van Buuren',
-		song : "Blah Blah Blah (2018)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Falling In Reverse',
+		song : "Watch the World Burn (2023)"
 	},
 	{
-		pack : EN_2010_M_PACK_2,
-		group : 'David Guetta',
-		song : "Memories (ft Kid Cudi) (2010)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'David Guetta',
-		song : "Sweat (ft Snoop Dogg) (2011)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'David Guetta',
-		song : "Titanium (ft Sia) (2011)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Robin Schulz',
-		song : "Waves (ft Mr Probz) (2014)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Tiesto',
-		song : "Jackie Chan (ft Dzeko, Preme, Post Malone) (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Marshmello',
-		song : "Wolves (ft Selena Gomez) (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Marshmello',
-		song : "Happier (ft Bastille) (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Marshmello',
-		song : "Friends (ft Anne-Marie) (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Calvin Harris',
-		song : "One Kiss (ft Dua Lipa) (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Calvin Harris',
-		song : "Feels (ft Pharrell Williams, Katy Perry and Big Sean) (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Calvin Harris',
-		song : "Summer (2014)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Martin Garrix',
-		song : "In the Name of Love (ft Bebe Rexha) (2016)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Martin Garrix',
-		song : "Scared to Be Lonely (ft Dua Lipa) (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Martin Garrix',
-		song : "Summer Days (ft Macklemore, Patrick Stump) (2019)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Armin van Buuren',
-		song : "Another You (ft Mr Probz) (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Flo Rida',
-		song : "My House (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Harry Styles',
-		song : "Sign of the Times (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Harry Styles',
-		song : "Adore You (2019)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Kanye West',
-		song : "I Love It (ft Lil Pump) (2018)",
+		pack : EN_2020_GR_PACK_2,
+		group : 'Green Day',
+		song : "Holy Toledo! (2021)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Lil Nas X',
-		song : "Panini (ft DaBaby) (2019)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Lil Nas X',
-		song : "Rodeo (ft Cardi B) (2019)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Luis Fonsi',
-		song : "Échame la Culpa (ft Demi Lovato) (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Wiz Khalifa',
-		song : "Black and Yellow (2010)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Wiz Khalifa',
-		song : "Young, Wild & Free (ft Snoop Dogg & Bruno Mars) (2011)",
+		pack : EN_2020_GR_PACK_1,
+		group : 'KALEO',
+		song : "Hey Gringo (2021)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Shawn Mendes',
-		song : "Señorita (ft Camila Cabello) (2019)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Shawn Mendes',
-		song : "There's Nothing Holdin' Me Back (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Shawn Mendes',
-		song : "Stitches (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Sam Smith',
-		song : "Diamonds (2020)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Sam Smith',
-		song : "Too Good at Goodbyes (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Sam Smith',
-		song : "Stay with Me (2014)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Post Malone',
-		song : "Circles (2019)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Post Malone',
-		song : "Wow (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Post Malone',
-		song : "Better Now (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Kendrick Lamar',
-		song : "Humble (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Kendrick Lamar',
-		song : "Swimming Pools (Drank) (2012)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Kendrick Lamar',
-		song : "Love (ft Zacari) (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Hozier',
-		song : "Take Me to Church (2013)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Hozier',
-		song : "Someone New (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Hozier',
-		song : "Movement (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Jason Derulo',
-		song : "Savage Love (Laxed – Siren Beat)(ft Jawsh 685) (2020)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Jason Derulo',
-		song : "Want to Want Me (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Jason Derulo',
-		song : "Talk Dirty (ft 2 Chainz) (2013)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Tinie Tempah',
-		song : "Written in the Stars (ft Eric Turner) (2010)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Tinie Tempah',
-		song : "Pass Out (2010)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Tinie Tempah',
-		song : "Miami 2 Ibiza (ft Swedish House Mafia) (2010)",
+		pack : EN_2020_GR_PACK_2,
+		group : 'Muse',
+		song : "Will Of The People (2022)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'XXXTentacion',
-		song : "Fuck Love (ft Trippie Redd) (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'XXXTentacion',
-		song : "Sad! (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'XXXTentacion',
-		song : "Moonlight (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Tinie Tempah',
-		song : "Not Letting Go (ft Jess Glynne) (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Wiz Khalifa',
-		song : "Work Hard, Play Hard (2012)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'will.i.am',
-		song : "Fall Down (ft Miley Cyrus) (2013)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Charlie Puth',
-		song : "We Don't Talk Anymore (ft Selena Gomez) (2016)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Charlie Puth',
-		song : "Attention (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'Charlie Puth',
-		song : "One Call Away (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Pitbull',
-		song : "International Love (2011)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Kanye West',
-		song : "Bound 2 (2013)",
+		pack : EN_2020_GR_PACK_2,
+		group : 'Placebo',
+		song : "Forever Chemicals (2022)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Kanye West',
-		song : "Power (2010)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Sabaton',
+		song : "Defence of Moscow (2021)"
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Kanye West',
-		song : "Fade (2016)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Sabaton',
+		song : "The Attack Of The Dead Men (2020)"
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : "Rag'n'Bone Man",
-		song : "Human (2016)"
+		pack : EN_2020_GR_PACK_1,
+		group : 'Score',
+		song : "Fighter (2022)"
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : "Rag'n'Bone Man",
-		song : "Skin (2017)"
+		pack : EN_2020_GR_PACK_1,
+		group : 'Score',
+		song : "Head Up (2021)"
 	},
 	{
-		pack : EN_2010_M_PACK_1,
-		group : "Rag'n'Bone Man",
-		song : "Giant (ft Calvin Harris) (2019)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : "Troye Sivan",
-		song : "Youth (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : "Troye Sivan",
-		song : "My My My! (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : "Troye Sivan",
-		song : "Wild (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Lost Frequencies (Dj)',
-		song : "Are You with Me (2014)"
-	},
-	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Lost Frequencies (Dj)',
-		song : "Crazy (ft Zonderling) (2017)",
+		pack : EN_2020_GR_PACK_2,
+		group : 'Slaughter to Prevail',
+		song : "Demolisher (2020)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_2,
-		group : 'Lost Frequencies (Dj)',
-		song : "Reality (ft Janieck Devy) (2015)",
+		pack : EN_2020_GR_PACK_2,
+		group : 'Smash Into Pieces',
+		song : "Big Bang (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Smash Into Pieces',
+		song : "Forever Alone (2020)"
+	},
+	{
+		pack : EN_2020_GR_PACK_2,
+		group : 'Three Days Grace',
+		song : "Mayday (2024)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Lil Peep',
-		song : "Save That Shit (2017)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Volbeat',
+		song : "Shotgun Blues (2021)"
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Lil Peep',
-		song : "Star Shopping (2015)"
+		pack : EN_2020_GR_PACK_2,
+		group : 'Lamb of God',
+		song : "Dead Seeds (2020)"
 	},
 	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Lil Peep',
-		song : "U Said (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Lil Pump',
-		song : "Gucci Gang (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Lil Uzi Vert',
-		song : "XO TOUR Llif3 (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'David Kushner',
-		song : "Burn (2022)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Myles Smith',
-		song : "Nice To Meet You (2024)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Machine Gun Kelly',
-		song : "my ex's best friend (ft blackbear) (2020)",
+		pack : EN_2020_GR_PACK_1,
+		group : 'Imagine Dragons',
+		song : "Lonely (2021)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Tommy Richman',
-		song : "MILLION DOLLAR BABY (2024)",
-		ignore : true
+		pack : EN_2020_GR_PACK_1,
+		group : 'BTS',
+		song : "Dynamite (2020)"
 	},
 	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Alec Benjamin (Dj)',
-		song : "Let Me Down Slowly (2018)"
+		pack : EN_2020_GR_PACK_1,
+		group : 'BTS',
+		song : "Butter (2021)"
 	},
 	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Alex Ferrari',
-		song : "Bara Bara Bere Bere (2012)"
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'blackbear',
-		song : "idfc (2014)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'BØRNS',
-		song : "Electric Love (2014)",
-		ignore : true
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Desiigner',
-		song : "Panda (2015)",
-		ignore : true
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Duke Dumont (Dj)',
-		song : "Ocean Drive (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'FINNEAS',
-		song : "Let's Fall in Love for the Night (2018)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Flying Decibels (Dj)',
-		song : "The Roads (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'George Ezra',
-		song : "Budapest (2013)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'J Balvin',
-		song : "Mi Gente (ft Willy William) (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'John Newman',
-		song : "Love Me Again (2013)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'John Legend',
-		song : "All of Me (2013)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Lucenzo',
-		song : "Danza Kuduro (ft Don Omar) (2011)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Major Lazer',
-		song : "Lean On (ft MØ & DJ Snake) (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Mark Ronson',
-		song : "Uptown Funk (ft Bruno Mars) (2014)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Masked Wolf',
-		song : "Astronaut In The Ocean (2019)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Michel Telo',
-		song : "Ai Se Eu Te Pego (2011)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Måns Zelmerlöw',
-		song : "Heroes (2015)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Naughty Boy',
-		song : "La La La (ft Sam Smith) (2013)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Ola',
-		song : "I'm In Love (2012)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Olly Murs',
-		song : "Troublemaker (ft Flo Rida) (2012)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Passenger',
-		song : "Let Her Go (2012)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Sak Noel (Dj)',
-		song : "Loca People (What the F**k!) (2011)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Tony Igy (Dj)',
-		song : "Astronomia (2010)",
-		ignore : true
-	},
-	{
-		pack : EN_2010_M_PACK_3,
-		group : 'Travis Scott',
-		song : "HIGHEST IN THE ROOM (2019)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Two Feet',
-		song : "I Feel Like I'm Drowning (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Willy William (Dj)',
-		song : "Ego (2011)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Zac Efron',
-		song : "Rewrite the Stars (ft Zendaya) (2017)"
-	},
-	{
-		pack : EN_2010_M_PACK_1,
-		group : 'ZAYN',
-		song : "PILLOWTALK (2016)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Rema',
-		song : "Calm Down (2022)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Shaboozey',
-		song : "A Bar Song (Tipsy) (2024)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Vance Joy',
-		song : "Riptide (2013)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Imanbek',
-		song : "Roses (2019)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Alex Warren',
-		song : "Ordinary (2025)"
-	},
-	{
-		pack : EN_2010_M_PACK_4,
-		group : 'Lewis Capaldi',
-		song : "Someone You Loved (2018)"
+		pack : EN_2020_GR_PACK_1,
+		group : 'BTS',
+		song : "ON (2020)"
 	}
 ];
 
-let en_2010_m_1 =	en_2010_m.filter(item => item.pack == 1);
-let en_2010_m_2 =	en_2010_m.filter(item => item.pack == 2);
-let en_2010_m_3 =	en_2010_m.filter(item => item.pack == 3);
-let en_2010_m_4 =	en_2010_m.filter(item => item.pack == 4);
+let en_2020_gr_1 = en_2020_gr.filter(item => item.pack == 1);
+let en_2020_gr_2 = en_2020_gr.filter(item => item.pack == 2);
 
 let music = [
 	{
-		arr: en_2010_m,
+		arr: en_2020_gr,
 		lang: 'en',
-		year: '2010',
-		type: 'm',
+		year: '2020',
+		type: 'gr',
 		packs: [
 				{
-					arr: en_2010_m_1,
-					name: 'EN 2010s Male: Pop',
+					arr: en_2020_gr_2,
+					name: 'EN 2020s Groups: Rock',
 				},
 				{
-					arr: en_2010_m_2,
-					name: 'EN 2010s Male: Dj',
-				},
-				{
-					arr: en_2010_m_3,
-					name: 'EN 2010s Male: Rap',
-				},
-				{
-					arr: en_2010_m_4,
-					name: 'EN 2010s Male: One Hit Wonder',
+					arr: en_2020_gr_1,
+					name: 'EN 2020s Groups: Pop',
 				}
 			]
 	}
@@ -1189,7 +624,7 @@ function map_songs(){
 		music[j].arr = generateSongIdsWithPrefix(music[j].arr, music[j].lang, 
 												music[j].year, music[j].type);
 	}
-	showMapping(0, "en_2000_gr", "gr");
+	showMapping(0, "ru_2020_gr", "gr");
 }
 
 function select_mapping_button(suffix, type){
@@ -1480,6 +915,14 @@ function generateSongIds(arr){
 	return arr;
 }
 
+function back_to_packages(){
+	$('#back').hide();
+	$('#current_pack').hide();
+	$('#package_content').hide();
+	toggleLearn();
+	setup();
+}
+
 let back;
 let expressMode = false;
 let generateSongs;
@@ -1489,20 +932,21 @@ let generateImgPath;
 
 function setup(){
 	lang = 'en';
-	year = '2010';
-	artist_type = 'm';
+	year = '2020';
+	artist_type = 'gr';
+	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2010_m_icon;
+	package_names = en_2020_gr_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 	useUrlParam();
 }
 
 let pack_num;
-let year_url = 'https://sunquiz.netlify.app/2010';
+let year_url = 'https://sunquiz.netlify.app/2020';
 
 function useUrlParam() {
 	var url_string = window.location.href; 
